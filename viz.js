@@ -7,6 +7,7 @@
  * - How to draw the chart.
  *
  * @author: Tanya L. Crenshaw
+ * @author: Regan Townsend
  * @since: Jan 6, 2015
  */
 
@@ -58,6 +59,10 @@ function drawChart() {
 	legend: { 
 	    position: 'none' 
 	}
+	animation: {
+            "startup" : true,
+            "duration" : 500
+        },
     };
 
     // Create a new viz object using the google API -- specifically,
