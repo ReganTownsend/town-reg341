@@ -62,7 +62,7 @@ function drawChart() {
 	animation: {
             "startup" : true,
             "duration" : 500
-        },
+        }
     };
 
     // Create a new viz object using the google API -- specifically,
