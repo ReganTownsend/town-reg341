@@ -48,6 +48,12 @@ function drawChart() {
     var options = {
         width: 1000,
         height: 563,
+        
+        animation: {
+            "startup" : true,
+            "duration" : 500
+        },
+
 	title: 'Session Hours Provided by University of Portland Librarians in 2014',
         hAxis: {
             title: 'Month',
@@ -59,10 +65,7 @@ function drawChart() {
 	legend: { 
 	    position: 'none' 
 	}
-	animation: {
-            "startup" : true,
-            "duration" : 500
-        }
+	
     };
 
     // Create a new viz object using the google API -- specifically,
