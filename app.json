@@ -1,0 +1,6 @@
+{
+  "name": "the-simplest"
+  "description": "creating an app of data",
+  "repository": "https://github.com/townsenr17/town-reg341",
+  "keywords": ["node", "express", "static"]
+}

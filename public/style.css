@@ -1,0 +1,35 @@
+body {
+	background-color:rgb(229,227,223);
+	font-family: Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+
+div#header {
+	padding: 30px;
+	background-image: url("library.jpg");
+	border-bottom: 2px solid orange;
+	color: white;
+}
+
+div#footer {
+	color: #666;
+	border-top: 2px;
+	border-top-color: #666;
+	padding: 30px;
+	
+	
+}
+div#about {
+	opacity: 0;
+	transition: all 2s linear;
+}
+
+div#about.show {
+    opacity: 1;
+}
+
+p { 
+ display: inline-block;
+ padding: 0.5em;
+}
